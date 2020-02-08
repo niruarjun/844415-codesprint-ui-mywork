@@ -1,0 +1,69 @@
+Gift card Landing page design [Landing page] common in all pages
+Containing logo, Heading name, nav bar, side bar (both containing links-home,place order, view order & contact us); introduction text and place order button.
+
+SAMPLE CODE SNIPPET:
+
+<table style="width: 80%">
+		<tr>
+			<th><!-- <img src="logo.png" alt="Avatar" style="width:200px;"> -->
+			<img src="resources/img/mainLogo.png" oncontextmenu="hi"
+				style="border-radius: 50%;width: 230px; height: 120px"></th>
+			<th colspan="2">
+				<p
+					style="font-family: Brush Script MT; font-size: 180%; color: tomato;">Gift
+					Card Shop</p>
+			</th>
+		</tr>
+	</table>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Chilu's Gift Store</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home</a></li>
+
+				<!-- 	<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Page 1-1</a></li>
+						<li><a href="#">Page 1-2</a></li>
+						<li><a href="#">Page 1-3</a></li>
+					</ul></li> -->
+
+				<li><a href="placeorder.html">Place Gift Card Order</a></li>
+				<li><a href="vieworder.html">View Gift Card Orders</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="contact.html"><span
+						class="glyphicon glyphicon-phone"></span> Contact Us</a></li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<div class="sidenav">
+		<a href="index.html">Home</a> <a href="placeorder.html">Place Gift
+			Card Order</a> <a href="vieworder.html">View Gift Card Orders</a> <a
+			href="contact.html">Contact</a>
+	</div>
+
+
+<!-- 
+	<div class="main" align="center" >
+
+		<div class="w3-content w3-section" style="max-width: 500px">
+			<img class="mySlides" src="resources/img/automatic.png"
+				style="width: 70%"> <img class="mySlides"
+				src="resources/img/automatic3.png" style="width: 70%"> <img
+				class="mySlides" src="resources/img/automatic6.png"
+				style="width: 70%"> <img class="mySlides"
+				src="resources/img/automatic9.png" style="width: 70%"> <img
+				class="mySlides" src="resources/img/automatic10.png"
+				style="width: 70%">.................
+........................
+.....................
+
+
+END OF SAMPLE CODE
